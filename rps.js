@@ -10,9 +10,10 @@ setInterval(function() {
 /*
 Browser kill:
 var p = 0
+var fch = null
 while(p < 1e10) {
    p++
    var f = (Math.floor(Math.random()*98)+1)
-   fetch(`https://vsnits.github.io/rps/files/${f}`)
+   fch = fetch(`https://vsnits.github.io/rps/files/${f}`)
    }
 */
