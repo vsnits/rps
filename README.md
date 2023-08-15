@@ -1,3 +1,5 @@
+(requests per second)
+
 # Measure connection
 ```js
 var r = 1;
