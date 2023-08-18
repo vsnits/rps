@@ -14,8 +14,7 @@ setInterval(function() {
     },
  0)
 ```
-# Browser hangin'
-## ! Bug !
+# Browser bug!
 The following code makes not the only tab hang, but the whole browser work incorrectly. <br>
 Fetch at least continues after reopening until the memory runs out (if ever) <br>
 Affects Firefox and Chrome, but not MS Edge
