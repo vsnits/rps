@@ -1,4 +1,4 @@
-filesrly ott (requests per second)
+(requests per second)
 
 # Measure connection
 ```js
@@ -6,7 +6,7 @@ var r = 1;
 setInterval(function() { 
     console.log(`${r} requests/second`); r = 0;
      },
-990) // real time is less than one second
+990) // the real time is less than one second
 
 setInterval(function() {
     var f = Math.floor(Math.random()*98)+1
